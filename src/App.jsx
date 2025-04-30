@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Header from "./components/Header";
 import Me from "./components/Me";
 
@@ -7,6 +8,7 @@ const App = () => {
       <Header />;
       <main>
         <Me />
+        <About />
       </main>
     </>
   );
