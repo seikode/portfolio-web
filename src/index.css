@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  white-space: pre-line
 }
 
 body {
@@ -103,8 +104,8 @@ body {
 }
 
 .btn-primary {
-  @apply h-11 bg-[#C9F6F6] text-zinc-950 hover:bg-[#C9F6F6]
-  active:bg-[#C9F6F6];
+  @apply h-11 bg-[#C9F6F6] text-zinc-950 hover:bg-[#87fdfd]
+  active:bg-[#C9F6F6] cursor-pointer;
 }
 
 .btn-outline {

@@ -6,10 +6,12 @@ import Me from "./components/Me";
 import Project from "./components/Project";
 import Skill from "./components/Skill";
 
+import { ReactLenis } from "lenis/react";
+
 const App = () => {
   return (
-    <>
-      <Header />;
+    <ReactLenis root>
+      <Header />
       <main>
         <Me />
         <About />
@@ -18,7 +20,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
-    </>
+    </ReactLenis>
   );
 };
 

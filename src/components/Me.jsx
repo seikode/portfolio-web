@@ -3,7 +3,7 @@ import ButtonPrimary from "./ButtonPrimary";
 
 const Me = () => {
   return (
-    <section id="home" className="pt-28 lg:pt-36">
+    <section id="home" className="pt-28 lg:pt-2">
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
         <div>
           <div className="flex items-center gap-3">
@@ -41,7 +41,7 @@ const Me = () => {
         <div className="hidden lg:block">
           <figure
             className="w-full max-w-[480px] ml-auto
-          bg-gradient-to-t from-#C9F6F6-400 via-25% via-#C9F6F6-400/40 to-65%
+          bg-gradient-to-t from-[#03f8f8] via-25% via-[#C9F6F6] to-65%
           rounded-[60px] overflow-hidden"
           >
             <img
