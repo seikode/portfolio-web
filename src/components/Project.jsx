@@ -15,21 +15,21 @@ const projects = [
   },
   {
     imgSrc: "/images/project-3.png",
-    title: "Recipe app",
-    tags: ["Development", "API"],
-    projectLink: "",
+    title: "Meme maker app",
+    tags: ["Javascript", "UI"],
+    projectLink: "https://seikode.github.io/MEME-MAKER/",
   },
   {
     imgSrc: "/images/project-4.png",
-    title: "Real state website",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
+    title: "Movie website",
+    tags: ["ReactJS"],
+    projectLink: "https://seikode.github.io/movie-app/",
   },
   {
-    imgSrc: "/images/project-5.jpg",
-    title: "eCommerce website",
-    tags: ["eCommerce", "Development"],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
+    imgSrc: "/images/project-5.png",
+    title: "SNS app",
+    tags: ["ReactJS", "Typescript", "Vite", "Firebase"],
+    projectLink: "https://nwitter-reloaded-3c2ef.web.app/",
   },
 ];
 const Project = () => {
